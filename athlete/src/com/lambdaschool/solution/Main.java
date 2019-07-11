@@ -10,7 +10,7 @@ public class Main
         // Create a Track Athlete
         injector = new TrackAthleteCreationInjector();
         app = injector.getProcess();
-        app.displayAthlete();
+        app.displayAthlete("Track", "Runner");
 
         // Create a Hockey Athlete
         injector = new HockeyAthleteCreationInjector();
